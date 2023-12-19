@@ -1,0 +1,76 @@
+  .img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .body {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    background: #0c0e10;
+  }
+  
+  .h1, .h2, .h3 {
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+  
+  .p {
+    color: #ababab;
+    font-size: 14px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 5%; 
+  }
+  
+  .card {
+    max-width: 300px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 15px;
+  }
+  
+  .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .content {
+    padding: 30px;
+  }
+  
+  .info {
+   margin: 20px 0;
+  }
+
+  .hovered {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .overlay {
+    /* Стили для блока, который появляется при наведении */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .detailsButton {
+    /* Стили для кнопки "Details" */
+    background-color: #d981a5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 24px;
+  }
+  
